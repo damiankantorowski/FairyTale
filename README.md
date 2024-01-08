@@ -3,7 +3,8 @@
 Tells you a fairy tale.
 - [Features](#features)
 - [Instalation](#instalation)
- - [Usage](#usage)
+- [Usage](#usage)
+- [Docs](https://damiankantorowski.github.io/FairyTale/)
 ## Features
 This package is a ChatGPT-driven fairy tales writer. It uses OpenAI's [Assistants API](https://platform.openai.com/docs/assistants/) to create a task specific chatbot and ask it to generate multiple fairy tales on topics given by the user. The obtained text is saved in a pdf file using [fpdf2](https://github.com/py-pdf/fpdf2) library.
 ## Instalation

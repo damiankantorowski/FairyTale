@@ -1,6 +1,5 @@
 
 # Fairy Tale
-Tells you a fairy tale.
 - [Features](#features)
 - [Instalation](#instalation)
 - [Usage](#usage)

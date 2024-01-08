@@ -17,6 +17,7 @@ Or a release whl file:
 	pip install fairy_tale-1.0-py3-none-any.whl
 ## Usage
 Firstly, you'll need an [OpenAI API key](https://platform.openai.com/api-keys). For convenience you can store it in  environment variable like so:
+
 **Windows**
 
 	setx OPENAI_API_KEY "<your_key>"

@@ -21,10 +21,10 @@ Firstly, you'll need an [OpenAI API key](https://platform.openai.com/api-keys). 
 
 **Windows**
 
-	setx OPENAI_API_KEY "<your_key>"
+	setx OPENAI_API_KEY '<your_key>'
 **Linux/MacOS**
 
-	echo "export OPENAI_API_KEY="<your_key>" >> ~/.zshrc
+	echo "export OPENAI_API_KEY='<your_key>'" >> ~/.zshrc
 	source ~/.zshrc
 To start the program, navigate to a directory you want a PDF file to be saved to and run the main script:
 

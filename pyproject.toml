@@ -1,0 +1,15 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "fairy-tale"
+version = "1.0"
+authors = [{name="Damian Kantorowski", email="damiankantorowski.dk@gmail.com"}]
+description = "ChatGPT-driven fairy tales writer"
+readme = "README.md"
+requires-python = ">=3.8"
+dependencies = ["openai", "fpdf2"]
+
+[project.scripts]
+fairy-tale = "fairy_tale.fairy_tale:main"

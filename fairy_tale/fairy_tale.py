@@ -8,6 +8,7 @@ from typing import Self
 from openai.types.beta.threads import Run
 from openai.types.beta.assistant import Assistant
 
+
 class FairyTale(AsyncOpenAI):
     """
     A class that represents a fairy tale generator.
@@ -189,6 +190,7 @@ class FairyTale(AsyncOpenAI):
         self.responses = filter(lambda x: x is not None, self.responses)
         self.responses = list(map(tuple, self.responses))
         return self.responses
+
 
 class PDF(FPDF):
     """
